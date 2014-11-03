@@ -34,10 +34,10 @@ function testFPSpec(test, pass, miss) {
             spec4.canDeviceFeature("UTF-8") === true];
 
     var browserVersion = [
-            spec1.getBrowserVersion() === 2.0,
-            spec2.getBrowserVersion() === 7.2,
-            spec3.getBrowserVersion() === 1.0,
-            spec4.getBrowserVersion() === 1.0];
+            spec1.getBrowserVersion() === "2",
+            spec2.getBrowserVersion() === "7.2",
+            spec3.getBrowserVersion() === "1",
+            spec4.getBrowserVersion() === "1"];
 
     var flashLiteVersion = [
             spec1.getFlashLiteVersion() === 3.1,

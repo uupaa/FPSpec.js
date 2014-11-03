@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.fpspec.js",
-  "version":        "0.0.1",
+  "version":        "0.0.2",
   "description":    "Feature Phone Spec",
   "url":            "https://github.com/uupaa/FPSpec.js",
   "keywords":       ["spec", "uupaa", "WebModule", "Unstable"],
